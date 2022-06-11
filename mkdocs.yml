@@ -1,0 +1,6 @@
+site_name: MkDocs GOV.UK theme
+repo_url: null
+
+theme:
+    name: null
+    custom_dir: 'govuk_theme'
