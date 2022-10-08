@@ -2,16 +2,16 @@
 
 !!! warning "Warning" 
 
-    This Template is under construction and should not be used for public-facing documentation
+    This template is under construction and should not be used for public-facing documentation
 
-The MkDocs Tech Docs Template is an [MkDocs Template](https://www.mkdocs.org/) that you can use to build technical documentation with a GOV.UK style.
+The MkDocs Tech Docs Template is an [MkDocs Template](https://www.mkdocs.org/) that you can use to build technical documentation with a GOV.UK style. For a demo visit https://ministryofjustice.github.io/mkdocs-tech-docs-template/.
 
-The MkDocs Tech Docs Template is an alternative to the Middleman [Tech Docs Template](https://github.com/alphagov/tech-docs-template) but with the following advantages:
+The MkDocs Tech Docs Template is an alternative to the Middleman [Tech Docs Template](https://github.com/alphagov/tech-docs-template) but with the following benefits:
 
-- Easier to [setup and use](https://www.mkdocs.org/getting-started/)
-- Uses the [MkDocs Materials theme](https://squidfunk.github.io/mkdocs-material/) and all it's associated features
-- Compatible with a vast and growing ecosystem of [MkDocs Plugins](https://github.com/mkdocs/mkdocs/wiki/MkDocs-Plugins)
-- Simpler tech stack for python-based teams
+- simpler to [setup and use](https://www.mkdocs.org/getting-started/)
+- uses the [MkDocs Materials theme](https://squidfunk.github.io/mkdocs-material/) and all it's associated features
+- compatible with the vast and growing ecosystem of [MkDocs Plugins](https://github.com/mkdocs/mkdocs/wiki/MkDocs-Plugins)
+- unified tech stack for python-based teams
 
 You’re welcome to use the template even if your service isn’t considered part of GOV.UK, but your site or service must not:
 
@@ -28,21 +28,37 @@ You are encouraged to read the MkDocs [getting started](https://www.mkdocs.org/g
 
 This is the simplest method and more suitable for documentation-specific repositories.
 
-Copy the template to create a new [repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)
+Copy the template to create a new [repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
 
 ### For existing repositories
 
 Copy the following into the same location on your existing repository:
 
-- `docs/assets` directory 
+- `docs/assets` 
 - `mkdocs.yml`
-- `requirements-doc.txt` 
+- `requirements-doc.txt`
+- `.github/workflows/gh-deploy.yml`
+
+### Customisation
+
+Update the following variables in `mkdocs.yml`:
+
+- site_name
+- repo_url
+
+The template is configured to use the MOJ logo and favicon. To use your department's images:
+
+- add the images to the `docs/assets` directory in your repository
+- replace the logo and favicon file name in the `mkdocs.yml` file
+- consider adding the images to the template for sharing with colleagues
+
+For additional customisation, please refer to MkDocs Material [instructions](https://squidfunk.github.io/mkdocs-material/customization/).
 
 ### Installation
 
 Run the following command from the command line:
 
-```bash
+``` sh
 pip install -r requirements-docs.txt
 ```
 
@@ -55,6 +71,12 @@ MkDocs includes a live preview server, so you can preview your changes as you wr
 ``` sh
 mkdocs serve
 ```
+
+### Publish
+
+The template uses [GitHub Actions](https://github.com/features/actions) to automate the deployment of your documentation to [GitHub Pages](https://pages.github.com/) when a commit is pushed to either the master or main branches. 
+
+See [publishing your site](https://squidfunk.github.io/mkdocs-material/publishing-your-site/) for more details and alternatives.
 
 ## Contribute
 
