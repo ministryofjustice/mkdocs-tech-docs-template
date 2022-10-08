@@ -1,0 +1,60 @@
+:root > * {
+    --md-primary-fg-color: #000000;
+    --md-default-fg-color--light: #000000;
+    --md-typeset-a-color: #1d70b8;
+    --md-accent-fg-color: 	#003078;
+    --md-footer-bg-color:    #f3f2f1;
+    --md-footer-bg-color--dark:    #f3f2f1;
+    --md-footer-fg-color: #505a5f;
+    --md-footer-fg-color--light: #505a5f;
+    --md-footer-fg-color--lighter: #505a5f;
+}
+
+.md-typeset h1 {
+  font-size: 40px;
+  font-weight: 1000;
+}
+
+.md-typeset h2 {
+  font-weight: 1000;
+}
+
+.md-typeset h3 {
+  font-weight: 1000;
+}
+
+.md-typeset a {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.md-header__title{
+  font-size: 25px;
+}
+
+.md-header__topic:first-child{
+  font-weight: 400;
+}
+
+.md-nav {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.md-nav--primary {
+  color: #1d70b8;
+}
+
+.md-tabs {
+  background-color: #1d70b8;
+}
+
+.md-tabs__link {
+  font-size: 16px;
+}
+
+
+/* To remove line left of navigation bar
+[dir] .md-nav--integrated > .md-nav__list > .md-nav__item--active .md-nav--secondary {
+  border: none;
+} */
