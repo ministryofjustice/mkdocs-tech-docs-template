@@ -1,4 +1,4 @@
-site_name: Mkdocs GOV.UK Tech Docs Template
+site_name: MkDocs GOV.UK Tech Docs Template
 theme: 
   name: material
   logo: assets/moj_logo.png
@@ -25,9 +25,9 @@ extra_css:
   - assets/extra.css
 copyright:  "OGL: All content is available under the Open Government Licence v3.0, except where otherwise stated"
 repo_url: https://github.com/ministryofjustice/mkdocs-tech-docs-template
+edit_uri: edit/main/docs/
 plugins:
   - search
-  - monorepo
   - git-revision-date-localized:
       enable_creation_date: true
       fallback_to_build_date: true
