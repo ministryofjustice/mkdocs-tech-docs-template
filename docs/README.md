@@ -34,9 +34,10 @@ Copy the template to create a new [repository](https://docs.github.com/en/reposi
 
 Copy the following into the same location on your existing repository:
 
-- `docs/assets` directory 
+- `docs/assets` 
 - `mkdocs.yml`
-- `requirements-doc.txt` 
+- `requirements-doc.txt`
+- `.github/workflows/gh-deploy.yml`
 
 ### Installation
 
@@ -55,6 +56,10 @@ MkDocs includes a live preview server, so you can preview your changes as you wr
 ``` sh
 mkdocs serve
 ```
+
+### Publish
+
+The Template uses [GitHub Actions](https://github.com/features/actions) to automate the deployment of your project documentation when a commit is pushed to either the master or main branches. See [publishing your site](https://squidfunk.github.io/mkdocs-material/publishing-your-site/) for more details.
 
 ## Contribute
 
