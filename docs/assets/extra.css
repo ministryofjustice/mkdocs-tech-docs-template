@@ -53,6 +53,11 @@
   font-size: 16px;
 }
 
+.md-typeset .admonition,
+.md-typeset details {
+  font-size: 16px;
+  border: 3px solid;
+}
 
 /* To remove line left of navigation bar
 [dir] .md-nav--integrated > .md-nav__list > .md-nav__item--active .md-nav--secondary {

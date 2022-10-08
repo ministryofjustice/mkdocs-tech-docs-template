@@ -1,12 +1,14 @@
-site_name: Mkdocs GOV.UK Tech Docs Template
+site_name: MkDocs Tech Docs Template
+repo_url: https://github.com/ministryofjustice/mkdocs-tech-docs-template
+
 theme: 
   name: material
   logo: assets/moj_logo.png
-  favicon: assets/favicon.ico
+  favicon: assets/moj_favicon.ico
   features:
     - navigation.tabs
     - navigation.tabs.sticky
-    - toc.integrate # uncomment to merge TOC with navigation bar
+    # - toc.integrate # uncomment to merge TOC with navigation bar
   icon:
     admonition:
       note: octicons/tag-16
@@ -24,10 +26,9 @@ theme:
 extra_css:
   - assets/extra.css
 copyright:  "OGL: All content is available under the Open Government Licence v3.0, except where otherwise stated"
-repo_url: https://github.com/ministryofjustice/mkdocs-tech-docs-template
+edit_uri: edit/main/docs/
 plugins:
   - search
-  - monorepo
   - git-revision-date-localized:
       enable_creation_date: true
       fallback_to_build_date: true
