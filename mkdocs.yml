@@ -27,7 +27,6 @@ copyright:  "OGL: All content is available under the Open Government Licence v3.
 repo_url: https://github.com/ministryofjustice/mkdocs-tech-docs-template
 plugins:
   - search
-  - monorepo
   - git-revision-date-localized:
       enable_creation_date: true
       fallback_to_build_date: true
