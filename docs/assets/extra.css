@@ -1,26 +1,26 @@
 :root > * {
-    --md-primary-fg-color: #000000;
-    --md-default-fg-color--light: #000000;
-    --md-typeset-a-color: #1d70b8;
-    --md-accent-fg-color: 	#003078;
-    --md-footer-bg-color:    #f3f2f1;
-    --md-footer-bg-color--dark:    #f3f2f1;
-    --md-footer-fg-color: #505a5f;
-    --md-footer-fg-color--light: #505a5f;
-    --md-footer-fg-color--lighter: #505a5f;
+  --md-primary-fg-color: #000000;
+  --md-default-fg-color--light: #000000;
+  --md-typeset-a-color: #1d70b8;
+  --md-accent-fg-color: 	#003078;
+  --md-footer-bg-color:    #f3f2f1;
+  --md-footer-bg-color--dark:    #f3f2f1;
+  --md-footer-fg-color: #505a5f;
+  --md-footer-fg-color--light: #505a5f;
+  --md-footer-fg-color--lighter: #505a5f;
 }
 
 .md-typeset h1 {
-  font-size: 40px;
-  font-weight: 1000;
+  font-size: 48px;
+  font-weight: 700;
 }
 
 .md-typeset h2 {
-  font-weight: 1000;
+  font-weight: 700;
 }
 
 .md-typeset h3 {
-  font-weight: 1000;
+  font-weight: 700;
 }
 
 .md-typeset a {
@@ -36,6 +36,12 @@
   font-weight: 400;
 }
 
+.md-content{
+  border-left: 1px solid;
+  border-color: #1d70b8;
+}
+
+/* Configures the navigation bar */
 .md-nav {
   font-size: 16px;
   line-height: 1.5;
@@ -45,8 +51,21 @@
   color: #1d70b8;
 }
 
+.md-nav__link:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 2px;
+}
+
+/* Configures the tabs below the header */
 .md-tabs {
   background-color: #1d70b8;
+  line-height: 0;
+  height: 35px;
+}
+
+.md-tabs__list {
+  height: 35px;
 }
 
 .md-tabs__link {
@@ -58,8 +77,3 @@
   font-size: 16px;
   border: 3px solid;
 }
-
-/* To remove line left of navigation bar
-[dir] .md-nav--integrated > .md-nav__list > .md-nav__item--active .md-nav--secondary {
-  border: none;
-} */
