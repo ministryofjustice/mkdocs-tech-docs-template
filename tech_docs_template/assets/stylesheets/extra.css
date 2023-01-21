@@ -41,6 +41,12 @@
   border-color: #1d70b8;
 }
 
+.md-footer{
+  border-top: 1px solid;
+  border-color: #505a5f;
+  font-size: 20px;
+}
+
 /* Configures the navigation bar */
 .md-nav {
   font-size: 16px;
@@ -70,6 +76,10 @@
 
 .md-tabs__link {
   font-size: 16px;
+}
+
+.md-footer__inner:not([hidden]) {
+  display: none
 }
 
 .md-typeset .admonition,
