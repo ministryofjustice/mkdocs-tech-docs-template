@@ -1,3 +1,4 @@
+---
 site_name: MkDocs Tech Docs Template
 repo_url: https://github.com/ministryofjustice/mkdocs-tech-docs-template
 
@@ -25,7 +26,6 @@ theme:
       example: octicons/beaker-16
       quote: octicons/quote-16
 
-copyright: "OGL: All content is available under the Open Government Licence v3.0, except where otherwise stated"
 edit_uri: edit/main/docs/
 plugins:
   - search

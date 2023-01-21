@@ -4,16 +4,17 @@
 
     This template is under construction and should only be used for prototyping
 
-The MkDocs Tech Docs Template is an [MkDocs Template](https://www.mkdocs.org/) that you can use to build technical documentation with a GOV.UK style. For a demo visit [mkdocs-tech-docs-template](https://ministryofjustice.github.io/mkdocs-tech-docs-template/).
+The MkDocs Tech Docs Template is an [MkDocs theme](https://www.mkdocs.org/) that you can use to build technical documentation with a GOV.UK style. For a demo visit [mkdocs-tech-docs-template](https://ministryofjustice.github.io/mkdocs-tech-docs-template/).
 
 The MkDocs Tech Docs Template is a python-based alternative to the ruby-based Middleman [Tech Docs Template](https://github.com/alphagov/tech-docs-template) with the following benefits:
 
 - simple to setup, use and customise
-- uses the [MkDocs Materials theme](https://squidfunk.github.io/mkdocs-material/) and all it's associated features
+- exploits the [MkDocs Materials theme](https://squidfunk.github.io/mkdocs-material/) and all it's associated features
 - compatible with the vast and growing ecosystem of [MkDocs Plugins](https://github.com/mkdocs/mkdocs/wiki/MkDocs-Plugins)
-- unified tech stack for python-based teams
+- unified tech stack for python-based teams and projects
+- easy to upgrade as new versions of the theme are released
 
-You’re welcome to use the template even if your service isn’t considered part of GOV.UK, but your site or service must not:
+You’re welcome to use the MkDocs Tech Docs Template even if your service isn’t considered part of GOV.UK, but your site or service must not:
 
 - identify itself as being part of GOV.UK
 - use the crown or GOV.UK logotype in the header
@@ -22,47 +23,49 @@ You’re welcome to use the template even if your service isn’t considered par
 
 ## Usage
 
-You are encouraged to read the MkDocs [getting started](https://www.mkdocs.org/getting-started/) pages before proceeding.
+You are encouraged to read the Material for MkDocs [getting started](https://squidfunk.github.io/mkdocs-material/getting-started/) pages before proceeding.
 
-### For new repositories
+### Quick Start
 
-This is the simplest method and more suitable for documentation-specific repositories.
+MkDocs Tech Docs template is published as a Python package and can be installed with pip, ideally by using a virtual environment. Open up a terminal and install with:
 
-Copy the template to create a new [repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
+```
+pip install mkdocs-tech-docs-template
+```
 
-### For existing repositories
+Bootstrap your project documentation:
 
-Copy the following into the same location on your existing repository:
+```
+mkdocs new .
+```
 
-- `docs/assets` 
-- `mkdocs.yml`
-- `requirements-doc.txt`
-- `.github/workflows/gh-deploy.yml`
+This creates the following structure:
+
+```
+.
+├─ docs/
+│  └─ index.md
+└─ mkdocs.yml
+```
 
 ### Customisation
 
-Update the following variables in `mkdocs.yml`:
+Update/add the following variables in `mkdocs.yml`:
 
-- site_name
-- repo_url
+```
+- site_name: <website-name>
+- repo_url: <url>
+- theme:
+  - name: tech_docs_template
+```
 
-The template is configured to use the MOJ logo and favicon. To use your department's images:
+To use your department's images:
 
 - add the images to the `docs/assets` directory in your repository
 - replace the logo and favicon file name in the `mkdocs.yml` file
 - consider adding the images to the template for sharing with colleagues
 
 For additional customisation, please refer to MkDocs Material [instructions](https://squidfunk.github.io/mkdocs-material/customization/).
-
-### Installation
-
-Run the following command from the command line:
-
-``` sh
-pip install -r requirements-docs.txt
-```
-
-For more details, see the MkDocs [Installation Guide](https://github.com/mkdocs/mkdocs/blob/master/docs/user-guide/installation.md).
 
 ### Preview
 
@@ -74,7 +77,7 @@ mkdocs serve
 
 ### Publish
 
-The template uses [GitHub Actions](https://github.com/features/actions) to automate the deployment of your documentation to [GitHub Pages](https://pages.github.com/) when a commit is pushed to either the master or main branches. 
+You can use [GitHub Actions](https://github.com/features/actions) to automate the deployment of your documentation to [GitHub Pages](https://pages.github.com/) when a commit is pushed to either the master or main branches. 
 
 See [publishing your site](https://squidfunk.github.io/mkdocs-material/publishing-your-site/) for more details and alternatives.
 
