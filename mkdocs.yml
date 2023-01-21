@@ -1,10 +1,11 @@
 site_name: MkDocs Tech Docs Template
 repo_url: https://github.com/ministryofjustice/mkdocs-tech-docs-template
 
-theme: 
+theme:
   name: material
-  logo: assets/moj_logo.png
-  favicon: assets/moj_favicon.ico
+  custom_dir: 'tech_docs_template/'
+  logo: logos/moj.png
+  favicon: favicons/moj.ico
   features:
     - navigation.tabs
     - navigation.tabs.sticky
@@ -23,9 +24,8 @@ theme:
       bug: octicons/bug-16
       example: octicons/beaker-16
       quote: octicons/quote-16
-extra_css:
-  - assets/extra.css
-copyright:  "OGL: All content is available under the Open Government Licence v3.0, except where otherwise stated"
+
+copyright: "OGL: All content is available under the Open Government Licence v3.0, except where otherwise stated"
 edit_uri: edit/main/docs/
 plugins:
   - search
