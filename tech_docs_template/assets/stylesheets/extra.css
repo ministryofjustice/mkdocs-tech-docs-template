@@ -44,7 +44,16 @@
 .md-footer{
   border-top: 1px solid;
   border-color: #505a5f;
-  font-size: 20px;
+}
+
+.md-copyright{
+  font-size: 16px;
+  color:#000000;
+}
+
+.md-copyright a {
+  text-decoration: underline;
+  text-underline-offset: 2px;
 }
 
 /* Configures the navigation bar */
