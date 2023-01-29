@@ -1,8 +1,8 @@
 {% extends "base.html" %}
 
+{# append our extra stylesheets#}
 {% block styles %}
   {{ super() }}
-  {# append our extra stylesheets to the styles from mkdocs-material #}
   <link rel="stylesheet" href="{{ 'assets/stylesheets/extra.css' | url }}">
 {% endblock %}
 
@@ -11,7 +11,7 @@
     <div class="md-footer-meta__inner md-grid">
 
       <div class="md-copyright">
-        <img src="assets/images/ogl.png" >
+        <img src="{{ 'assets/images/ogl.png' |url }}" >
         All content is available under the 
         <a
             href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
@@ -22,7 +22,7 @@
       </div>
 
       <div>
-        <img class="logo" src="assets/images/govuk-crest-2x.png" width=125px height=102px;>
+        <img class="logo" src="{{ 'assets/images/govuk-crest-2x.png' | url }}" width=125px height=102px;>
         <br>
         <a class="md-copyright" 
         href="https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/">© Crown copyright</a>

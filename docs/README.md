@@ -1,4 +1,4 @@
-# Introduction
+# Home
 
 !!! danger ""
 
@@ -10,7 +10,7 @@ The MkDocs Tech Docs Template is a python-based alternative to the ruby-based Mi
 
 - simple to setup, use and customise
 - exploits the [MkDocs Materials theme](https://squidfunk.github.io/mkdocs-material/) and all it's associated features
-- compatible with the vast and growing ecosystem of [MkDocs Plugins](https://github.com/mkdocs/mkdocs/wiki/MkDocs-Plugins)
+- compatible with the vast and growing ecosystem of [MkDocs Plugins](https://github.com/mkdocs/mkdocs/wiki/MkDocs-Plugins) see [plugins](plugins/) for some examples
 - unified tech stack for python-based teams and projects
 - easy to upgrade as new versions of the theme are released
 
@@ -23,63 +23,7 @@ You’re welcome to use the MkDocs Tech Docs Template even if your service isn�
 
 ## Usage
 
-You are encouraged to read the Material for MkDocs [getting started](https://squidfunk.github.io/mkdocs-material/getting-started/) pages before proceeding.
-
-### Quick Start
-
-MkDocs Tech Docs template is published as a Python package and can be installed with pip, ideally by using a virtual environment. Open up a terminal and install with:
-
-```
-pip install mkdocs-tech-docs-template
-```
-
-Bootstrap your project documentation:
-
-```
-mkdocs new .
-```
-
-This creates the following structure:
-
-```
-.
-├─ docs/
-│  └─ index.md
-└─ mkdocs.yml
-```
-
-### Customisation
-
-Update/add the following variables in `mkdocs.yml`:
-
-```
-- site_name: <website-name>
-- repo_url: <url>
-- theme:
-  - name: tech_docs_template
-```
-
-To use your department's images:
-
-- add the images to the `docs/assets` directory in your repository
-- replace the logo and favicon file name in the `mkdocs.yml` file
-- consider adding the images to the template for sharing with colleagues
-
-For additional customisation, please refer to MkDocs Material [instructions](https://squidfunk.github.io/mkdocs-material/customization/).
-
-### Preview
-
-MkDocs includes a live preview server, so you can preview your changes as you write your documentation. The server will automatically rebuild the site upon saving. Start it with:
-
-``` sh
-mkdocs serve
-```
-
-### Publish
-
-You can use [GitHub Actions](https://github.com/features/actions) to automate the deployment of your documentation to [GitHub Pages](https://pages.github.com/) when a commit is pushed to either the master or main branches. 
-
-See [publishing your site](https://squidfunk.github.io/mkdocs-material/publishing-your-site/) for more details and alternatives.
+Please refer to [Usage](./Usage.md) for more details.
 
 ## Questions
 

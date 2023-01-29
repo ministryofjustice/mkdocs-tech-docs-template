@@ -10,6 +10,7 @@ theme:
   features:
     - navigation.tabs
     - navigation.tabs.sticky
+    - navigation.indexes
     # - toc.integrate # uncomment to merge TOC with navigation bar
   icon:
     admonition:
@@ -29,6 +30,7 @@ theme:
 edit_uri: edit/main/docs/
 plugins:
   - search
+  - table-reader
   - git-revision-date-localized:
       enable_creation_date: true
       fallback_to_build_date: true
@@ -36,3 +38,4 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - tables
