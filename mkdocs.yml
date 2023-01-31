@@ -11,6 +11,9 @@ theme:
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.indexes
+    - content.code.copy
+    - content.action.edit
+    - content.action.view
     # - toc.integrate # uncomment to merge TOC with navigation bar
   icon:
     admonition:
@@ -39,3 +42,12 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
   - tables
+
+nav:
+  - About:
+      - index.md
+      - Usage: Usage.md
+      - Contribute: CONTRIBUTE.md
+  - Plugins:
+      - plugins/index.md
+      - Example Table: plugins/example_table.md

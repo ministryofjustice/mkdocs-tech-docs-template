@@ -1,4 +1,4 @@
-# Home
+# MkDocs Tech Docs Template
 
 !!! danger ""
 

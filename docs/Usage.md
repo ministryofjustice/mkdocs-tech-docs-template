@@ -1,6 +1,6 @@
 # Usage
 
-You are encouraged to read the Material for MkDocs [getting started](https://squidfunk.github.io/mkdocs-material/getting-started/) pages before proceeding.
+This page contains the minimal steps to use the MKDocs Tech Docs Template. You are encouraged to read the Material for MkDocs [guidance](https://squidfunk.github.io/mkdocs-material/) for more detailed information on setting up and customisation.
 
 ## Setup
 
@@ -33,7 +33,7 @@ Update/add the following variables to `mkdocs.yml`:
 - site_name: <website-name>
 - repo_url: <url>
 - theme:
-  name: tech_docs_template
+    name: tech_docs_template
 ```
 
 ## Logos and Images
@@ -55,7 +55,6 @@ theme:
 ```
 
 Do consider adding the images to the template for sharing with colleagues!
-
 
 ## Site Navigation
 
