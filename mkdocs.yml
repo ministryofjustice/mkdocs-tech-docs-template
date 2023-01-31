@@ -45,9 +45,9 @@ markdown_extensions:
 
 nav:
   - About:
-      - index.md
+      - README.md
       - Usage: Usage.md
       - Contribute: CONTRIBUTE.md
   - Plugins:
-      - plugins/index.md
+      - plugins/README.md
       - Example Table: plugins/example_table.md
