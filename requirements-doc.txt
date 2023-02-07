@@ -1,3 +1,5 @@
 mkdocs-material==9.0.9
 mkdocs-git-revision-date-localized-plugin==1.1.0
 mkdocs-table-reader-plugin==1.2
+mknotebooks==0.7.1
+ipykernel==6.21.1

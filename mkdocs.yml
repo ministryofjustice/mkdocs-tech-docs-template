@@ -15,6 +15,9 @@ theme:
     - content.action.edit
     - content.action.view
     # - toc.integrate # uncomment to merge TOC with navigation bar
+  font:
+    text: Roboto
+    code: Roboto Mono
   icon:
     admonition:
       note: octicons/tag-16
@@ -34,6 +37,7 @@ edit_uri: edit/main/docs/
 plugins:
   - search
   - table-reader
+  - mknotebooks
   - git-revision-date-localized:
       enable_creation_date: true
       fallback_to_build_date: true
@@ -50,4 +54,5 @@ nav:
       - Contribute: CONTRIBUTE.md
   - Plugins:
       - plugins/README.md
-      - Example Table: plugins/example_table.md
+      - Demo Table: plugins/demo_table.md
+      - Demo Notebook: plugins/demo_notebook.ipynb

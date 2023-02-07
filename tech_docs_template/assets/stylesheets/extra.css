@@ -36,19 +36,15 @@
   font-weight: 400;
 }
 
-.md-content{
-  border-left: 1px solid;
-  border-color: #1d70b8;
-}
-
 .md-footer{
-  border-top: 1px solid;
-  border-color: #505a5f;
+  border: 1px solid;
+  border-color: #b1b4b6;
 }
 
 .md-copyright{
   font-size: 16px;
   color:#000000;
+  /* display: flex; */
 }
 
 .md-copyright a {
@@ -85,10 +81,6 @@
 
 .md-tabs__link {
   font-size: 16px;
-}
-
-.md-footer__inner:not([hidden]) {
-  display: none
 }
 
 .md-typeset .admonition,

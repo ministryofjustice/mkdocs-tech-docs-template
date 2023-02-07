@@ -13,7 +13,7 @@ Uses the following plugins and customisation:
 
 <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for ..." title="Type in a name">
 
-{{ read_csv('docs/plugins/example_table.csv') }}
+{{ read_csv('docs/plugins/demo_table.csv') }}
 
 <script src="https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js"></script>
 <script>
