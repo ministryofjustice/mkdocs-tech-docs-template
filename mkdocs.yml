@@ -35,7 +35,7 @@ theme:
 
 edit_uri: edit/main/docs/
 plugins:
-  - search
+  - material/search
   - table-reader
   - mknotebooks
   - git-revision-date-localized:
