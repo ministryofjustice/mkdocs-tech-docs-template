@@ -7,7 +7,7 @@ hide:
 
 Uses the following plugins and customisation:
 
-- [mkdocs-table-reader-plugin](https://timvink.github.io/mkdocs-table-reader-plugin/) to convert [`example_table.csv`](./example_table.csv) into a markdown table.
+- [mkdocs-table-reader-plugin](https://timvink.github.io/mkdocs-table-reader-plugin/) to convert [`demo_table.csv`](./demo_table.csv) into a markdown table.
 - [tablesort](http://tristen.ca/tablesort/demo/) to make the table sortable
 - Custom javascript to filter by the first column in the table
 
