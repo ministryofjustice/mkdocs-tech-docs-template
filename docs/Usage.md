@@ -58,6 +58,10 @@ Do consider adding the images to the template for sharing with colleagues!
 
 ## Site Navigation
 
+Tabs are disabled by default:
+
+![No tabs](no_tabs.png)
+
 To use the same navigation structure as displayed in the demo update the `mkdocs.yml` as follows:
 ```
 theme:
