@@ -71,6 +71,21 @@
   text-underline-offset: 2px;
 }
 
+.md-nav__item--active .md-nav__item--active {
+  font-weight: 700; 
+  margin-left: 10px; 
+  padding-left: 3px;
+  border-left: 3px solid;
+  border-left-color:   #1d70b8;
+}
+
+.md-nav--secondary .md-nav__link--active {
+  /* font-weight: 700;  */
+  padding-left: 3px;
+  border-left: 3px solid;
+  border-left-color:   #1d70b8;
+}
+
 /* Configures the tabs below the header */
 .md-tabs {
   color: #1d70b8;
@@ -85,6 +100,21 @@
 .md-tabs__link {
   font-size: 18px;
   font-weight: 700;
+}
+
+.md-tabs__link:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 3px;
+}
+
+.md-tabs__item--active {
+  border-bottom: 4px solid;
+  border-bottom-color:   #1d70b8;
+  /* text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 10px;
+  text-decoration-color:   #1d70b8; */
 }
 
 .md-typeset .admonition,

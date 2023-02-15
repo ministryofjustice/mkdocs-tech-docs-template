@@ -4,13 +4,13 @@
 
     This template is under construction and should only be used for prototyping
 
-The MkDocs Tech Docs Template is an [MkDocs theme](https://www.mkdocs.org/) that you can use to build technical documentation with a GOV.UK style. For a demo visit [mkdocs-tech-docs-template](https://ministryofjustice.github.io/mkdocs-tech-docs-template/).
+The MkDocs Tech Docs Template is an [MkDocs theme](https://www.mkdocs.org/) that you can use to build technical documentation with a [GOV.UK style](https://design-system.service.gov.uk/). For a demo visit [mkdocs-tech-docs-template](https://ministryofjustice.github.io/mkdocs-tech-docs-template/).
 
 The MkDocs Tech Docs Template is a python-based alternative to the ruby-based Middleman [Tech Docs Template](https://github.com/alphagov/tech-docs-template) with the following benefits:
 
 - simple to setup, use and customise
 - exploits the [MkDocs Materials theme](https://squidfunk.github.io/mkdocs-material/) and all it's associated features
-- compatible with the vast and growing ecosystem of [MkDocs Plugins](https://github.com/mkdocs/mkdocs/wiki/MkDocs-Plugins) see [plugins](plugins/) for some examples
+- compatible with the vast ecosystem of [MkDocs Plugins](https://github.com/mkdocs/mkdocs/wiki/MkDocs-Plugins), see [plugins](plugins/) for some examples
 - unified tech stack for python-based teams and projects
 - easy to upgrade as new versions of the theme are released
 
