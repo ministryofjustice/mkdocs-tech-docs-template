@@ -10,8 +10,12 @@
   --md-footer-fg-color--lighter: #505a5f;
 }
 
+.md-typeset {
+  font-size: 0.85rem;
+}
+
 .md-typeset h1 {
-  font-size: 48px;
+  font-size: 45px;
   font-weight: 700;
 }
 
@@ -100,6 +104,7 @@
 .md-tabs__link {
   font-size: 18px;
   font-weight: 700;
+  opacity: 1;
 }
 
 .md-tabs__link:hover {
@@ -111,14 +116,21 @@
 .md-tabs__item--active {
   border-bottom: 4px solid;
   border-bottom-color:   #1d70b8;
-  /* text-decoration: underline;
-  text-decoration-thickness: 3px;
-  text-underline-offset: 10px;
-  text-decoration-color:   #1d70b8; */
 }
 
+/* Configure the warning and info panels */
 .md-typeset .admonition,
 .md-typeset details {
   font-size: 16px;
   border: 3px solid;
 }
+
+/* Configure the main panel */
+.md-main__inner {
+  margin-top:10px;
+}
+
+/* Configure the jupyter notebook code panels
+.highlight {
+  background-color:#e0f7fa;
+} */
