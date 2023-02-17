@@ -11,12 +11,16 @@
     <div class="md-footer-meta__inner md-grid">
 
       <div class="md-copyright">
+
+        {% if config.extra.social %}
+          {% include "partials/social.html" %}
+        {% endif %}
+
         Made with 
         <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
           Material for MkDocs
         </a>
-        <br>
-        <br>
+        <br><br>
         <img src="{{ 'assets/images/ogl.png' |url }}" >
         All content is available under the 
         <a
@@ -31,7 +35,7 @@
         <a 
           href="https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/"
           target="_blank" rel="noopener">
-          <img src="{{ 'assets/images/govuk-crest-2x.png' | url }}" width=120px height=100px;>
+          <img src="{{ 'assets/images/govuk-crest-2x.png' | url }}" width=125px height=102px;>
           <br>
           © Crown copyright
         </a>

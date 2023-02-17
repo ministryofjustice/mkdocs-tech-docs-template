@@ -45,6 +45,8 @@
 }
 
 .md-footer{
+  padding-top: 40px;
+  padding-bottom: 25px;
   border-top: 1px solid;
   border-color: #b1b4b6;
 }
@@ -118,11 +120,14 @@
   border-bottom-color:   #1d70b8;
 }
 
-/* Configure the warning and info panels */
+/* Configure the adminitions */
 .md-typeset .admonition,
 .md-typeset details {
-  font-size: 16px;
+  font-size: 0.85rem;
   border: 3px solid;
+  box-shadow: none; 
+  /* border-width: 0;  */
+  /* border-left-width: 4px; */
 }
 
 /* Configure the main panel */
@@ -130,7 +135,19 @@
   margin-top:10px;
 }
 
-/* Configure the jupyter notebook code panels
-.highlight {
-  background-color:#e0f7fa;
-} */
+/* Create a new banner admonition */
+.md-typeset .admonition.banner,
+.md-typeset details.banner {
+  border-color: #1d70b8;
+}
+.md-typeset .banner > .admonition-title,
+.md-typeset .banner > .admonition-title a,
+.md-typeset .banner > summary {
+  font-size: 30px;
+  background-color: #1d70b8;
+  color: white;
+}
+.md-typeset .banner > .admonition-title::before,
+.md-typeset .banner > summary::before {
+  background-color: white;
+}

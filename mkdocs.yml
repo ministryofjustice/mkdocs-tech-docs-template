@@ -20,17 +20,6 @@ theme:
     code: Roboto Mono
   icon:
     admonition:
-      note: octicons/tag-16
-      abstract: octicons/checklist-16
-      info: octicons/info-16
-      tip: octicons/squirrel-16
-      success: octicons/check-16
-      question: octicons/question-16
-      warning: octicons/alert-16
-      failure: octicons/x-circle-16
-      danger: octicons/zap-16
-      bug: octicons/bug-16
-      example: octicons/beaker-16
       quote: octicons/quote-16
 
 edit_uri: edit/main/docs/
@@ -41,17 +30,30 @@ plugins:
   - git-revision-date-localized:
       enable_creation_date: true
       fallback_to_build_date: true
+      exclude:
+          - README.md
 markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
   - tables
+  - attr_list
+extra:
+  social:
+    - icon: fontawesome/brands/slack
+      link: https://mojdt.slack.com/archives/CBVUV2613
+    - icon: fontawesome/solid/paper-plane 
+      link: mailto:soumaya.mauthoor@digital.justice.gov.uk
+    - icon: fontawesome/brands/github
+      link: https://github.com/ministryofjustice/mkdocs-tech-docs-template/discussions
 
 nav:
-  - About:
+  - Home:
       - README.md
-      - Usage: Usage.md
-      - Contribute: CONTRIBUTE.md
+  - Setup: 
+      - setup/README.md
+      - Customise: setup/customise.md
+      - Contribute: setup/CONTRIBUTE.md
   - Plugins:
       - plugins/README.md
       - Demo Table: plugins/demo_table.md
