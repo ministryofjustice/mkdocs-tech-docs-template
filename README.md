@@ -1,5 +1,5 @@
-# README
+# Mkdocs Tech Docs Template
 
-A python-based alternative to the ruby-based [Tech Docs Template](https://github.com/alphagov/tech-docs-template).
+Build sophisticated technical documentation with a [GOV.UK style](https://design-system.service.gov.uk/).
 
 Visit the [documentation website](https://ministryofjustice.github.io/mkdocs-tech-docs-template/) for more details.

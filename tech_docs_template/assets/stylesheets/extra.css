@@ -10,6 +10,7 @@
   --md-footer-fg-color--lighter: #505a5f;
 }
 
+/* Configure the fonts */
 .md-typeset {
   font-size: 0.85rem;
 }
@@ -32,8 +33,19 @@
   text-underline-offset: 2px;
 }
 
+/* Configure the main panel */
+.md-main__inner {
+  margin-top:10px;
+}
+
+/* Configure the header */
 .md-header{
   box-shadow: none;
+}
+
+.md-header__inner {
+  border-bottom: 10px solid; 
+  border-bottom-color:  #1d70b8;
 }
 
 .md-header__title{
@@ -44,6 +56,7 @@
   font-weight: 400;
 }
 
+/* Configure the footer */
 .md-footer{
   padding-top: 40px;
   padding-bottom: 25px;
@@ -51,6 +64,7 @@
   border-color: #b1b4b6;
 }
 
+/* Configure the copyright */
 .md-copyright{
   font-size: 15px;
   color:#000000;
@@ -96,8 +110,8 @@
 .md-tabs {
   color: #1d70b8;
   background-color: #f8f8f8;
-  border-top: 10px solid;
-  border-top-color:  #1d70b8;
+  /* border-top: 10px solid; */
+  /* border-top-color:  #1d70b8; */
   border-bottom: 1px solid;
   border-bottom-color:  #b1b4b6;
   line-height: 1;
@@ -125,14 +139,10 @@
 .md-typeset details {
   font-size: 0.85rem;
   border: 3px solid;
-  box-shadow: none; 
+  box-shadow: none;
+  border-radius: 0px;
   /* border-width: 0;  */
   /* border-left-width: 4px; */
-}
-
-/* Configure the main panel */
-.md-main__inner {
-  margin-top:10px;
 }
 
 /* Create a new banner admonition */
@@ -146,8 +156,19 @@
   font-size: 30px;
   background-color: #1d70b8;
   color: white;
+  border-radius: 0px;
 }
 .md-typeset .banner > .admonition-title::before,
 .md-typeset .banner > summary::before {
   background-color: white;
+}
+
+/* Configure the primary button */
+.md-typeset .md-button--primary{
+  background-color:  var(--md-typeset-a-color);
+  border-color:  var(--md-typeset-a-color);
+  text-decoration: none;
+  font-size: 1rem;
+  border-radius: 0px;   
+  padding: 2px 10px;
 }

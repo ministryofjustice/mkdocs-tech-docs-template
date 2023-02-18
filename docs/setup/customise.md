@@ -76,3 +76,9 @@ Please refer to [social links](https://squidfunk.github.io/mkdocs-material/setup
 ## Admonitions
 
 Admonitions, also known as call-outs, are an excellent choice for including side content without significantly interrupting the document flow. They can also be used to provide structure and coloured headings as in used on the [home](README.md) page. Please refer to [admonitions](https://squidfunk.github.io/mkdocs-material/reference/admonitions/#admonition-icons) for more details.
+
+## Dark Mode
+
+Under construction!
+
+See [Changing the colors](https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/) for more details.
