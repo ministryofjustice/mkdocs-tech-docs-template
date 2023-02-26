@@ -1,0 +1,32 @@
+/* Configure the tag background color for a specified tag see #5101 */
+/* Will need to be updated to .md-tag--[type] with upcoming release see #4d7291f */
+
+.md-typeset .md-tag-icon--accepted {
+    background-color: #00703c;
+    color: white;
+  }
+
+.md-typeset .md-tag-icon--deprecated {
+    background-color: #b1b4b6;
+    color: white;
+  }
+  
+.md-typeset .md-tag-icon--draft {
+    background-color: #5694ca;
+    color: white;
+  }
+
+.md-typeset .md-tag-icon--proposed {
+    background-color: #003078;
+    color: white;
+  }
+  
+.md-typeset .md-tag-icon--rejected {
+    background-color: #f47738;
+    color: white;
+  }
+
+.md-typeset .md-tag-icon--superseded {
+    background-color: #505a5f;
+    color: white;
+  }

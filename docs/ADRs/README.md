@@ -18,4 +18,4 @@ tags:
 
 You can associate [icons](https://squidfunk.github.io/mkdocs-material/setup/setting-up-tags/?h=tags#tag-icons-and-identifiers) with the ADR status tags on the `mkdocs.yml` file.
 
-The tags plugin will automatically include all markdown files in the `docs` repository with a `tags` keyword. This is great because it means you don't have to list the ADRs in the `nav` section of the mkdocs.yml file. However it means you cannot use non ADR-status tag values. With mkdocs-insiders it is possible to limit to markdown pages with [specified tags](https://squidfunk.github.io/mkdocs-material/setup/setting-up-tags/?h=tags#:~:text=tags%20index%20page.-,tags_extra_files,-insiders%2D4.20.0%20%C2%B7) only.
+The tags plugin will automatically include all markdown files in the `docs` repository with a `tags` keyword. This is great because it means you don't have to list the ADRs in the `nav` section of the mkdocs.yml file. However it also means you cannot use non ADR-status tags, unless you use mkdocs-insiders with [scoped tags indexes](https://squidfunk.github.io/mkdocs-material/setup/setting-up-tags/?h=tags#+tags.tags_extra_files).
