@@ -21,6 +21,13 @@ theme:
   icon:
     admonition:
       quote: octicons/quote-16
+    tag:
+      draft: material/sticker-outline
+      accepted: material/sticker-check-outline
+      proposed: material/sticker-plus-outline
+      deprecated: material/sticker-minus-outline
+      superseded: material/sticker-alert-outline
+      rejected: material/sticker-remove-outline
   palette: 
     # Palette toggle for light mode
     - scheme: default
@@ -43,6 +50,9 @@ plugins:
       fallback_to_build_date: true
       exclude:
           - README.md
+          - ADRs/README.md
+  - tags:
+      tags_file: ADRs/README.md
 markdown_extensions:
   - admonition
   - pymdownx.details
@@ -57,7 +67,13 @@ extra:
       link: mailto:soumaya.mauthoor@digital.justice.gov.uk
     - icon: fontawesome/brands/github
       link: https://github.com/ministryofjustice/mkdocs-tech-docs-template/discussions
-
+  tags:
+    Draft: draft
+    Accepted: accepted
+    Proposed: proposed
+    Superseded: superseded
+    Deprecated: deprecated
+    Rejected: rejected
 nav:
   - Home:
       - README.md
@@ -69,3 +85,5 @@ nav:
       - plugins/README.md
       - Demo Table: plugins/demo_table.md
       - Demo Notebook: plugins/demo_notebook.ipynb
+  - ADRs:
+      - ADRs/README.md

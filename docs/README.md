@@ -14,7 +14,7 @@ hide:
   }
 </style>
 
-!!! banner "Build sophisticated technical documentation with a [GOV.UK style](https://design-system.service.gov.uk/)"
+!!! banner "Build flexible technical documentation with a [GOV.UK style](https://design-system.service.gov.uk/)"
 
     ![Services](homepage-illustration.svg){ align=right width=300px height=300px}
 

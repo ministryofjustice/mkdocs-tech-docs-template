@@ -172,3 +172,20 @@
   border-radius: 0px;   
   padding: 2px 10px;
 }
+
+/* Configure the tags */
+.md-typeset .md-tag {
+  border-radius: 0px;
+  font-size: 16px;
+  background-color: #1d70b8;
+  color: white;
+  width: 20%;
+}
+
+.md-typeset .md-tag-icon::before {
+  background-color: white;
+}
+
+.md-typeset .md-tag[href] {
+  color: white;
+}
