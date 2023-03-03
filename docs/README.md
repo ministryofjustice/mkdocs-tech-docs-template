@@ -1,4 +1,5 @@
 ---
+title: MkDocs Tech Docs Template
 hide:
   - navigation
   - toc
