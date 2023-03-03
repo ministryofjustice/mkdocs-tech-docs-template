@@ -5,6 +5,10 @@ hide:
 ---
 
 <style>
+  .md-typeset h1 {
+    display: none;
+  }
+  
   .md-main__inner {
     margin-top: 0px;
   }
