@@ -27,14 +27,18 @@ This creates the following structure:
 
 ## Configuration
 
-Update/add the following variables to `mkdocs.yml`:
+MkDocs projects settings are configured by default using a YAML configuration file in the root directory named `mkdocs.yml`. You should add the following variables to `mkdocs.yml` at minimum:
 
 ```
-- site_name: <website-name>
-- repo_url: <url>
-- theme:
+site_name: <website-name>
+repo_url: <url>
+theme:
     name: tech_docs_template
+plugins:
+    - material/search
 ```
+
+See [configuration](https://www.mkdocs.org/user-guide/configuration/) for more details and configuration values.
 
 ## Preview
 

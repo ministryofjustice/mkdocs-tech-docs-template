@@ -183,7 +183,3 @@
 .md-typeset .md-tag-icon::before {
   background-color: white;
 }
-
-.md-typeset .md-tag[href] {
-  color: white;
-}

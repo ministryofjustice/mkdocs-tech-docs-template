@@ -1,7 +1,7 @@
 ---
 site_name: MkDocs Tech Docs Template
 repo_url: https://github.com/ministryofjustice/mkdocs-tech-docs-template
-
+repo_name: mkdocs-tech-docs-template
 theme:
   name: material
   custom_dir: 'tech_docs_template/'
@@ -39,7 +39,8 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
-
+extra_css:
+  - stylesheets/tags-color.css
 edit_uri: edit/main/docs/
 plugins:
   - material/search
