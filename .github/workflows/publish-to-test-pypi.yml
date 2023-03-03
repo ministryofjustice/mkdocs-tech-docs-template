@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - main
+    paths:
+      - tech_docs_template/__init__.py
 jobs:
   build-n-publish:
     name: Build and publish Python 🐍 distributions 📦 to TestPyPI
