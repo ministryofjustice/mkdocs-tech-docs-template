@@ -41,9 +41,6 @@
 /* Configure the header */
 .md-header{
   box-shadow: none;
-}
-
-.md-header__inner {
   border-bottom: 10px solid; 
   border-bottom-color:  #1d70b8;
 }
@@ -112,10 +109,11 @@
 .md-tabs {
   color: #1d70b8;
   background-color: #f8f8f8;
-  /* border-top: 10px solid; */
-  /* border-top-color:  #1d70b8; */
+  border-top: 10px solid;
+  border-top-color:  #1d70b8;
   border-bottom: 1px solid;
   border-bottom-color:  #b1b4b6;
+  margin-bottom: -10px;  /* Hide the border on .md-header */
   line-height: 1;
 }
 
