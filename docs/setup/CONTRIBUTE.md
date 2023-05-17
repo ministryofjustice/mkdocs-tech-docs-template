@@ -1,19 +1,3 @@
-# Contribute
+# Contribute to the MKDocs TDT
 
-## Updating the CSS
-
-TBC
-
-## CI/CD pipelines
-
-### Linting
-
-TBC
-
-### Publish to Github Pages
-
-TBC
-
-### Build and push to PyPi
-
-TBC
+To contribute to this template, please raise a pull request. A maintainer will review and may contact you.
