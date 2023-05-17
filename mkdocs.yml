@@ -8,16 +8,21 @@ theme:
   logo: logos/moj.png
   favicon: favicons/moj.ico
   features:
-    - navigation.tabs
-    - navigation.tabs.sticky
-    - navigation.indexes
+    #- navigation.tabs
+    #- navigation.tabs.sticky
+    #- navigation.indexes
+    #- navigation.sections
+    #- navigation.path
+    #- navigation.expand
+    #- toc.integrate
     - content.code.copy
     - content.action.edit
     - content.action.view
-    # - toc.integrate # uncomment to merge TOC with navigation bar
+
   font:
     text: Roboto
     code: Roboto Mono
+    font_size: 20pt
   icon:
     admonition:
       quote: octicons/quote-16
@@ -28,11 +33,11 @@ theme:
       deprecated: material/sticker-minus-outline
       superseded: material/sticker-alert-outline
       rejected: material/sticker-remove-outline
-  palette: 
+  palette:
     # Palette toggle for light mode
     - scheme: default
       toggle:
-        icon: material/brightness-7 
+        icon: material/brightness-7
         name: Switch to dark mode
     # Palette toggle for dark mode
     - scheme: slate
@@ -63,7 +68,7 @@ extra:
   social:
     - icon: fontawesome/brands/slack
       link: https://mojdt.slack.com/archives/CBVUV2613
-    - icon: fontawesome/solid/paper-plane 
+    - icon: fontawesome/solid/paper-plane
       link: mailto:soumaya.mauthoor@digital.justice.gov.uk
     - icon: fontawesome/brands/github
       link: https://github.com/ministryofjustice/mkdocs-tech-docs-template/discussions
@@ -75,15 +80,14 @@ extra:
     Deprecated: deprecated
     Rejected: rejected
 nav:
-  - Home:
-      - README.md
-  - Setup: 
-      - setup/README.md
+  - Home: README.md
+  - Setup:
+      - Quickstart guide: setup/README.md
       - Customise: setup/customise.md
-      - Contribute: setup/CONTRIBUTE.md
+      - Contribute: setup/contribute.md
   - Plugins:
       - plugins/README.md
       - Demo Table: plugins/demo_table.md
       - Demo Notebook: plugins/demo_notebook.ipynb
-  - ADRs:
+  - Architectural Decision Records:
       - ADRs/README.md

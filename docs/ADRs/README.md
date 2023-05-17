@@ -1,21 +1,37 @@
----
-hide:
-  - navigation
----
+# ADR Template
 
-# Architecture Decision Records
+Architectural Decision Records (ADRs) provide a way for project teams to record each decision they make for their product. Well written ADRs provide an incremental view of a product’s development and improvements to user experience along the way.
 
-This section demos how to record and summarise Architecture Decision Records [(ADRs)](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions) using the MkDocs Material [tags](https://squidfunk.github.io/mkdocs-material/setup/setting-up-tags/?h=tags) in-built plugin.
+[The GDS Way provides some guidelines][gds_way] for writing ADRs. This section shows how to record and summarise Architecture Decision Records using the [tags][tags_plugin] plugin, which is included with the MKDocs Tech Docs Template.
 
-You'll need to add a `tag` keyword to the front-matter and specify the status for example:
+In the front matter of your page, add a `tag` keyword and specify a status. For example:
 
 ```
 ---
-tags: 
+tags:
     - Proposed
 ---
 ```
+The tags plugin will automatically include all markdown files in the `docs` repository with a `tags` keyword. This is great because it means you don't have to list the ADRs in the `nav` section of the mkdocs.yml file.
 
-You can associate [icons](https://squidfunk.github.io/mkdocs-material/setup/setting-up-tags/?h=tags#tag-icons-and-identifiers) with the ADR status tags on the `mkdocs.yml` file.
+However, it also means you cannot use non ADR-status tags, unless you use mkdocs-insiders with [scoped tags indexes][scoped_tags].
 
-The tags plugin will automatically include all markdown files in the `docs` repository with a `tags` keyword. This is great because it means you don't have to list the ADRs in the `nav` section of the mkdocs.yml file. However it also means you cannot use non ADR-status tags, unless you use mkdocs-insiders with [scoped tags indexes](https://squidfunk.github.io/mkdocs-material/setup/setting-up-tags/?h=tags#+tags.tags_extra_files).
+You can also associate [icons][icons] with the ADR status tags in `mkdocs.yml`:
+
+```
+extra:
+  tags:
+    Draft: draft
+    Accepted: accepted
+    Proposed: proposed
+    Superseded: superseded
+    Deprecated: deprecated
+    Rejected: rejected
+```
+
+Now, each page with one of these tags in its front matter will display with the associated icon.
+
+[gds_way]: https://gds-way.cloudapps.digital/standards/architecture-decisions.html#documenting-architecture-decisions
+[tags_plugin]: https://squidfunk.github.io/mkdocs-material/setup/setting-up-tags/?h=tags
+[scoped_tags]: https://squidfunk.github.io/mkdocs-material/setup/setting-up-tags/?h=tags#+tags.tags_extra_files
+[icons]: https://squidfunk.github.io/mkdocs-material/setup/setting-up-tags/?h=tags#tag-icons-and-identifiers
