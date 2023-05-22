@@ -1,8 +1,8 @@
 ---
 title: MkDocs Tech Docs Template
 hide:
-#  - navigation
-# - toc
+- navigation
+- toc
 ---
 
 <style>
@@ -36,7 +36,7 @@ hide:
 
 !!! warning inline end "Prototype"
 
-    This template is under construction. It has not passed an accessibility audit yet, so we currently do not recommend using it.
+    This template is under construction. It has not passed an accessibility audit yet, so currently we do not recommend using it.
 
 !!! quote "Restrictions"
 
