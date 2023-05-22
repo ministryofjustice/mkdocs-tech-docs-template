@@ -8,14 +8,13 @@ In order to use the MKDocs Tech Docs Template, you require the following:
 
 - a device with permissions to install new packages
 - Python 3 and Pip installed on your device
-- GitHub account with [a configured SSH key][gh_ssh]
-- GitHub repository to store your documentation (see [GitHub's documentation][gh_newRepo] for instructions)
+- a remote repository to store your documentation, for example on GitHub
 
 You should also be comfortable writing content in Markdown, and using the Git workflow to push your changes to a repository.
 
 ## Install MKDocs TDT
 
-The MkDocs TDT publishes as a Python package, so you can use pip to install it. In your terminal, navigate to the directory you want to install the template and run the following:
+The MkDocs TDT is a Python package so you use pip to install it. In your terminal, navigate to the directory you want to install the template in and run the following:
 
 ```
 pip install mkdocs-tech-docs-template
@@ -59,12 +58,13 @@ To stop the server, in your terminal press Ctrl+C. If the page stops loading, ch
 
 ## Build your documentation
 
-You can use [GitHub Actions](https://github.com/features/actions) to automate the deployment of your documentation to [GitHub Pages](https://pages.github.com/) when a commit is pushed to either the master or main branches. See [publishing your site](https://squidfunk.github.io/mkdocs-material/publishing-your-site/) for more details and alternatives.
+If you are using GitHub, you can use [GitHub Actions][gh_actions] to automate the deployment of your documentation to [GitHub Pages](https://pages.github.com/) when a commit is pushed to either the master or main branches. See the [Material for MKDocs documentation][material_publishing] for more details and alternatives.
 
 ## Customise your documentation
 
-We have provided some customisation options in [customise](customise.md), but we encourage you to read the [Material for MkDocs guidance][material] for more detailed information on customisation.
+We have provided some customisation options in [customise](customise.md), but we encourage you to read the [Material for MkDocs documentation][material_docs] for more detailed information on customisation.
 
-[gh_newRepo]: https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository
+[gh_actions]: https://github.com/features/actions
 [gh_ssh]: https://docs.github.com/en/authentication/connecting-to-github-with-ssh
-[material]: https://squidfunk.github.io/mkdocs-material/
+[material_publishing]: https://squidfunk.github.io/mkdocs-material/publishing-your-site/
+[material_docs]: https://squidfunk.github.io/mkdocs-material/

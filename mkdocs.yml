@@ -8,9 +8,9 @@ theme:
   logo: logos/moj.png
   favicon: favicons/moj.ico
   features:
-    #- navigation.tabs
-    #- navigation.tabs.sticky
-    #- navigation.indexes
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.indexes
     #- navigation.sections
     #- navigation.path
     #- navigation.expand
