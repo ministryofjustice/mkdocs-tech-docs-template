@@ -1,10 +1,10 @@
 # Quickstart guide
 
-This page provides a guide on how to configure the MKDocs Tech Docs Template. In a few simple steps, you can begin building your documentation site.
+This page provides a guide on how to configure the MkDocs Tech Docs Template. In a few simple steps, you can begin building your documentation site.
 
 ## Before you begin
 
-In order to use the MKDocs Tech Docs Template, you require the following:
+In order to use the MkDocs Tech Docs Template, you require the following:
 
 - a device with permissions to install new packages
 - Python 3 and Pip installed on your device
@@ -12,7 +12,7 @@ In order to use the MKDocs Tech Docs Template, you require the following:
 
 You should also be comfortable writing content in Markdown, and using the Git workflow to push your changes to a repository.
 
-## Install MKDocs TDT
+## Install MkDocs TDT
 
 The MkDocs TDT is a Python package so you use pip to install it. In your terminal, navigate to the directory you want to install the template in and run the following:
 
@@ -37,7 +37,7 @@ This creates the following structure in the directory:
 
 ## Update mkdocs.yml
 
-So that the template displays properly, in `mkdocs.yml` insert the relevant values for `site_name` and `repo_url`, and set the `theme` so that it uses our MKDocs tech docs template:
+So that the template displays properly, in `mkdocs.yml` insert the relevant values for `site_name` and `repo_url`, and set the `theme` so that it uses our MkDocs tech docs template:
 
 ```
 - site_name: <your-website-name>

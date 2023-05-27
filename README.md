@@ -1,4 +1,4 @@
-# Mkdocs Tech Docs Template
+# MkDocs Tech Docs Template
 
 Build flexible technical documentation with a [GOV.UK style](https://design-system.service.gov.uk/) using [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/).
 

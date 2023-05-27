@@ -19,13 +19,13 @@ hide:
   }
 </style>
 
-#MKDocs Tech Docs Template
+#MkDocs Tech Docs Template
 
 !!! banner "Build flexible technical documentation with a [GOV.UK style][gov.ukStyle]"
 
     ![Services][homepage_illustration]{ align=right width=300px height=300px}
 
-    The **MKdocs Tech Docs Template** is a Python-based alternative to the ruby-based [Tech Docs Template][TDT] with the following benefits:
+    The **MkDocs Tech Docs Template** is a Python-based alternative to the ruby-based [Tech Docs Template][TDT] with the following benefits:
 
     - easy to [set up][setup], [customise][customise] and [enhance][contribute]
     - utilises the [MkDocs Materials theme][material] and its associated features
@@ -40,7 +40,7 @@ hide:
 
 !!! quote "Restrictions"
 
-    You can use the MKDocs Tech Docs Template if your service is not considered part of GOV.UK, but your site or service must not:
+    You can use the MkDocs Tech Docs Template if your service is not considered part of GOV.UK, but your site or service must not:
 
     - identify itself as being part of GOV.UK
     - use the crown or GOV.UK logotype in the header
