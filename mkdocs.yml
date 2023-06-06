@@ -84,7 +84,5 @@ nav:
       - Contribute: setup/CONTRIBUTE.md
   - Plugins:
       - plugins/README.md
-      - Demo Table: plugins/demo_table.md
-      - Demo Notebook: plugins/demo_notebook.ipynb
   - ADRs:
       - ADRs/README.md

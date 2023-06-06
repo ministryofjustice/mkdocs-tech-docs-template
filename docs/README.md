@@ -19,8 +19,6 @@ hide:
   }
 </style>
 
-#MkDocs Tech Docs Template
-
 !!! banner "Build flexible technical documentation with a [GOV.UK style][gov.ukStyle]"
 
     ![Services][homepage_illustration]{ align=right width=300px height=300px}
@@ -29,7 +27,7 @@ hide:
 
     - easy to [set up][setup], [customise][customise] and [enhance][contribute]
     - utilises the [MkDocs Materials theme][material] and its associated features
-    - compatible with the vast ecosystem of MkDocs [plugins][plugins]
+    - compatible with the vast ecosystem of [MkDocs plugins][plugins]
     - unified tech stack for Python-based teams and projects
 
     [Get Started ＞][setup]{ .md-button .md-button--primary}
@@ -54,6 +52,6 @@ hide:
 [TDT]: https://github.com/alphagov/tech-docs-template
 [setup]: ./setup/
 [customise]: ./setup/customise.md
-[contribute]: ./setup/contribute.md
+[contribute]: ./setup/CONTRIBUTE.md
 [material]: https://squidfunk.github.io/mkdocs-material/
 [plugins]: plugins/
