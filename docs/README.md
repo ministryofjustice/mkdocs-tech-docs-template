@@ -19,39 +19,40 @@ hide:
   }
 </style>
 
-!!! banner "Build flexible technical documentation with a [GOV.UK style][gov.ukStyle]"
+!!! banner "Build flexible documentation"
 
     ![Services][homepage_illustration]{ align=right width=300px height=300px}
 
-    The **MkDocs Tech Docs Template** is a Python-based alternative to the ruby-based [Tech Docs Template][TDT] with the following benefits:
+    The **MkDocs Tech Docs Template** is a Python-based alternative to the Ruby-based [Tech Docs Template][TDT] with the following benefits:
 
     - easy to [set up][setup], [customise][customise] and [enhance][contribute]
-    - utilises the [MkDocs Materials theme][material] and its associated features
+    - adapts the [MkDocs Materials theme][material] to follow the [GOV.UK style][gov-uk]
     - compatible with the vast ecosystem of [MkDocs plugins][plugins]
-    - unified tech stack for Python-based teams and projects
+    - unified tech stack for Python-based projects
 
     [Get Started ＞][setup]{ .md-button .md-button--primary}
 
 !!! warning inline end "Prototype"
 
-    This template is under construction. It has not passed an accessibility audit yet, so currently we do not recommend using it.
+    This template is under construction. As it has not yet passed an accessibility audit, we currently do not recommend using it.
 
 !!! quote "Restrictions"
 
-    You can use the MkDocs Tech Docs Template if your service is not considered part of GOV.UK, but your site or service must not:
+    You can use the MkDocs Tech Docs Template even if your documentation site is not part of GOV.UK, but it must not:
 
-    - identify itself as being part of GOV.UK
+    - identify itself as part of GOV.UK
     - use the crown or GOV.UK logotype in the header
     - use the GDS Transport typeface
-    - say or suggest that it is an official UK government website if it is not
+    - say or suggest that it is an official UK government website
 
 <br>
 
 [gov.ukStyle]: https://design-system.service.gov.uk/
 [homepage_illustration]: homepage-illustration.svg
-[TDT]: https://github.com/alphagov/tech-docs-template
+[TDT]: https://tdt-documentation.london.cloudapps.digital/
 [setup]: ./setup/
 [customise]: ./setup/customise.md
 [contribute]: ./setup/CONTRIBUTE.md
 [material]: https://squidfunk.github.io/mkdocs-material/
 [plugins]: plugins/
+[gov-uk]: https://design-system.service.gov.uk/
