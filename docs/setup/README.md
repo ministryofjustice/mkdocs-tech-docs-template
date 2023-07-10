@@ -37,16 +37,18 @@ This creates the following structure in the directory:
 
 ## Update mkdocs.yml
 
-So that the template displays properly, in `mkdocs.yml` insert the relevant values for `site_name` and `repo_url`, and set the `theme` so that it uses our MkDocs tech docs template:
+So that the template displays properly, copy the following into `mkdocs.yml`:
 
 ```
-- site_name: <your-website-name>
-- repo_url: <your-website-url>
-- theme:
+repo_url: <your-website-url>
+repo_name: <your-repo-name>
+theme:
     name: tech_docs_template
 plugins:
     - material/search
 ```
+
+This sets the theme to use the MkDocs Tech Docs Template and enables the search bar plugin. After copying, insert the relevant values for `site_name`, `repo_url` and `repo_name`.
 
 ## Preview your documentation
 
@@ -60,11 +62,11 @@ To stop the server, in your terminal press Ctrl+C. If the page stops loading, ch
 
 ## Build your documentation
 
-If you are using GitHub, you can use [GitHub Actions][gh_actions] to automate the deployment of your documentation to [GitHub Pages](https://pages.github.com/) when a commit is pushed to either the master or main branches. See the [Material for MKDocs documentation][material_publishing] for more details and alternatives.
+If you are using GitHub, you can use [GitHub Actions][gh_actions] to automate the deployment of your documentation to [GitHub Pages](https://pages.github.com/) whenever someone pushes a commit to the master or main branch. See the [Material for MKDocs documentation][material_publishing] for more details and alternatives.
 
-## Customise your documentation
+## Configure page layout
 
-We have provided some customisation options in [customise](customise.md), but we encourage you to read the [Material for MkDocs documentation][material_docs] for more detailed information on customisation.
+This template is flexible. For examples of how you can structure navigation and table of contents, as well as other customisation options, see [Customise](customise.md).
 
 [gh_actions]: https://github.com/features/actions
 [gh_ssh]: https://docs.github.com/en/authentication/connecting-to-github-with-ssh
