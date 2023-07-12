@@ -14,7 +14,7 @@ theme:
     - content.code.copy
     - content.action.edit
     - content.action.view
-    # - toc.integrate # uncomment to merge TOC with navigation bar
+    - toc.integrate # uncomment to merge TOC with navigation bar
   font:
     text: Roboto
     code: Roboto Mono

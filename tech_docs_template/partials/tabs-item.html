@@ -24,7 +24,7 @@
   {% else %}
     <li class="{{ item_class }}">
       <a href="{{ nav_item.url | url }}" class="{{ class }}">
-        {{ title }}
+        <span>{{ title }}</span>
       </a>
     </li>
   {% endif %}
@@ -33,7 +33,7 @@
   {% else %}
   <li class="{{ item_class }}">
     <a href="{{ nav_item.url | url }}" class="{{ class }}">
-      {{ nav_item.title }}
+      <span>{{ nav_item.title }}</span>
     </a>
   </li>
   {% endif %}
