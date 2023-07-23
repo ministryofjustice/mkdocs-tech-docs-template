@@ -1,6 +1,6 @@
 :root > * {
   --md-primary-fg-color: #000000;
-  --md-default-fg-color--light: #000000;
+  --md-default-fg-color--light: #1d70b8;
   --md-typeset-a-color: #1d70b8;
   --md-accent-fg-color: 	#003078;
   --md-footer-bg-color:    #f3f2f1;
@@ -31,11 +31,6 @@
 .md-typeset a {
   text-decoration: underline;
   text-underline-offset: 2px;
-}
-
-/* Configure the main panel */
-.md-main__inner {
-  margin-top:10px;
 }
 
 /* Configure the header */
@@ -88,21 +83,14 @@
   text-underline-offset: 2px;
 }
 
-.md-nav__item--active .md-nav__item--active {
-  font-weight: 700; 
-  margin-left: 10px; 
-  padding-left: 3px;
-  border-left: 3px solid;
-  border-left-color:   #1d70b8;
-}
-
 .md-nav__item--section > .md-nav > .md-nav__list > .md-nav__item--active,
 .md-nav--secondary .md-nav__link--active {
-  /* font-weight: 700;  */
-  margin-left:  0;
-  padding-left: 3px;
-  border-left: 3px solid;
-  border-left-color:   #1d70b8;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+[dir=ltr] .md-nav--integrated > .md-nav__list > .md-nav__item--active .md-nav--secondary {
+  border-left: 4px solid;
 }
 
 /* Configures the tabs below the header */
