@@ -10,7 +10,7 @@ theme:
   features:
     - navigation.tabs
     - navigation.tabs.sticky
-    - navigation.indexes
+    # - navigation.indexes
     - content.code.copy
     - content.action.edit
     - content.action.view
@@ -60,6 +60,8 @@ markdown_extensions:
   - pymdownx.superfences
   - tables
   - attr_list
+  - toc:
+      toc_depth: 2
 extra:
   social:
     - icon: fontawesome/brands/slack
@@ -82,7 +84,6 @@ nav:
       - setup/README.md
       - Customise: setup/customise.md
       - Contribute: setup/CONTRIBUTE.md
-  - Plugins:
-      - plugins/README.md
-  - ADRs:
-      - ADRs/README.md
+  - Enhancements:
+      - Plugins: plugins/README.md
+      - Architecture Decision Records: ADRs/README.md
