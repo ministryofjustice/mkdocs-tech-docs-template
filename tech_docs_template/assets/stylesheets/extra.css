@@ -3,8 +3,8 @@
   --md-default-fg-color--light: #000000;
   --md-typeset-a-color: #1d70b8;
   --md-accent-fg-color: 	#003078;
-  --md-footer-bg-color:    #f3f2f1;
-  --md-footer-bg-color--dark:    #f3f2f1;
+  --md-footer-bg-color:    #f8f8f8;
+  --md-footer-bg-color--dark:    #f8f8f8;
   --md-footer-fg-color: #505a5f;
   --md-footer-fg-color--light: #505a5f;
   --md-footer-fg-color--lighter: #505a5f;
@@ -31,11 +31,6 @@
 .md-typeset a {
   text-decoration: underline;
   text-underline-offset: 2px;
-}
-
-/* Configure the main panel */
-.md-main__inner {
-  margin-top:10px;
 }
 
 /* Configure the header */
@@ -88,21 +83,53 @@
   text-underline-offset: 2px;
 }
 
-.md-nav__item--active .md-nav__item--active {
-  font-weight: 700; 
-  margin-left: 10px; 
-  padding-left: 3px;
-  border-left: 3px solid;
-  border-left-color:   #1d70b8;
+.md-nav__link--active {
+  font-weight: 700;
 }
 
-.md-nav__item--section > .md-nav > .md-nav__list > .md-nav__item--active,
-.md-nav--secondary .md-nav__link--active {
-  /* font-weight: 700;  */
-  margin-left:  0;
-  padding-left: 3px;
-  border-left: 3px solid;
-  border-left-color:   #1d70b8;
+.md-nav__link:focus-within {
+  background-color:	#ffdd00 !important;
+}
+
+.md-nav--primary > .md-nav__list > .md-nav__item--active > .md-nav > .md-nav__list > .md-nav__item--active {
+  padding-left: 10px;
+  border-left: 4px solid;
+  border-left-color: #1d70b8;
+}
+
+.md-nav--secondary .md-nav__item::before {
+  content: '—';
+  font-size: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  color: #505a5f;
+}
+
+.md-nav--secondary .md-nav__link {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+  line-height: 2;
+}
+
+.md-nav--secondary .md-nav__list {
+  margin-top: 5px;
+}
+
+.md-nav__item .md-nav__link--passed {
+  color: var(--md-typeset-a-color);
+}
+
+.md-nav__item .md-nav__link--active {
+  color: var(--md-typeset-a-color);
+}
+
+[dir=ltr] .md-nav--secondary .md-nav__item {
+  padding-left: 0;
+}
+
+[dir=ltr] .md-nav--integrated > .md-nav__list > .md-nav__item--active .md-nav--secondary {
+  border-left: none;
 }
 
 /* Configures the tabs below the header */
@@ -127,11 +154,21 @@
   text-decoration: underline;
   text-decoration-thickness: 3px;
   text-underline-offset: 3px;
+  color: #003078;
+  text-decoration-color: #003078;
 }
 
 .md-tabs__item--active {
   border-bottom: 4px solid;
   border-bottom-color:   #1d70b8;
+}
+
+.md-tabs__item--active:hover {
+  border-color: #f8f8f8
+}
+
+.md-tabs__link:focus-within {
+  background-color:	#ffdd00 !important;
 }
 
 /* Configure the adminitions */
