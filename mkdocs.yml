@@ -44,8 +44,6 @@ extra_css:
 edit_uri: edit/main/docs/
 plugins:
   - material/search
-  - table-reader
-  - mknotebooks
   - git-revision-date-localized:
       enable_creation_date: true
       fallback_to_build_date: true
