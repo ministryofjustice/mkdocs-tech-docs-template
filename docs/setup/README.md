@@ -1,10 +1,10 @@
 # Quickstart guide
 
-This page provides a guide on how to configure the MkDocs Tech Docs Template. In a few simple steps, you can begin building your documentation site.
+This page provides a guide on how to configure GOVUK MkDocs Material. In a few simple steps, you can begin building your documentation site.
 
 ## Before you begin
 
-In order to use the MkDocs Tech Docs Template, you require the following:
+In order to use GOVUK MkDocs Material, you require the following:
 
 - a device with permissions to install new packages
 - Python 3 and Pip installed on your device
@@ -17,7 +17,7 @@ You should also be comfortable writing content in Markdown, and using the Git wo
 The MkDocs TDT is a Python package so you use pip to install it. In your terminal, navigate to the directory you want to install the template in and run the following:
 
 ```
-pip install mkdocs-tech-docs-template
+pip install govuk-mkdocs-material
 ```
 
 Next, bootstrap your project documentation:
@@ -43,12 +43,12 @@ So that the template displays properly, copy the following into `mkdocs.yml`:
 repo_url: <your-website-url>
 repo_name: <your-repo-name>
 theme:
-    name: tech_docs_template
+    name: govuk_mkdocs_material
 plugins:
     - material/search
 ```
 
-This sets the theme to use the MkDocs Tech Docs Template and enables the search bar plugin. After copying, insert the relevant values for `site_name`, `repo_url` and `repo_name`.
+This sets the theme to use the GOVUK MkDocs Material Template and enables the search bar plugin. After copying, insert the relevant values for `site_name`, `repo_url` and `repo_name`.
 
 ## Preview your documentation
 

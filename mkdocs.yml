@@ -1,10 +1,10 @@
 ---
-site_name: MkDocs Tech Docs Template
-repo_url: https://github.com/ministryofjustice/mkdocs-tech-docs-template
-repo_name: mkdocs-tech-docs-template
+site_name: GOVUK MkDocs Material Template
+repo_url: https://github.com/ministryofjustice/govuk-mkdocs-material
+repo_name: govuk-mkdocs-material
 theme:
   name: material
-  custom_dir: 'tech_docs_template/'
+  custom_dir: 'src/govuk_mkdocs_material/'
   logo: logos/moj.png
   favicon: favicons/moj.ico
   features:
@@ -67,7 +67,7 @@ extra:
     - icon: fontawesome/solid/paper-plane 
       link: mailto:soumaya.mauthoor@digital.justice.gov.uk
     - icon: fontawesome/brands/github
-      link: https://github.com/ministryofjustice/mkdocs-tech-docs-template/discussions
+      link: https://github.com/ministryofjustice/govuk_mkdocs_material/discussions
   tags:
     Draft: draft
     Accepted: accepted
