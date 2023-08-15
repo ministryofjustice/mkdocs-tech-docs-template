@@ -108,8 +108,8 @@ Use the sun icon in the top bar to switch between light and dark mode.
 [pageNav]: https://www.mkdocs.org/user-guide/writing-your-docs/#configure-pages-and-navigation
 [no_tabs]: no_tabs.png
 [navSetup]: https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/
-[logos]: ../tech_docs_template/logos/
-[favicons]: ../tech_docs_template/favicons/
+[logos]: ../govuk_mkdocs_material/logos/
+[favicons]: ../govuk_mkdocs_material/favicons/
 [social]: https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-footer/?h=social#navigation
 [home]: README.md
 [admonitions]: https://squidfunk.github.io/mkdocs-material/reference/admonitions/#admonition-icons
