@@ -1,3 +1,5 @@
+This project will not be developed further. See [https://github.com/ministryofjustice/mkdocs-tech-docs-template for an alternative](https://github.com/x-govuk/govuk-eleventy-plugin) for an alternative.
+
 # MkDocs Tech Docs Template
 
 Build flexible technical documentation with a [GOV.UK style](https://design-system.service.gov.uk/) using [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/).
