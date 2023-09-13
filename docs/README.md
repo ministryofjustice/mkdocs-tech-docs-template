@@ -34,7 +34,7 @@ hide:
 
 !!! warning inline end "Prototype"
 
-    This template is under construction. As it has not yet passed an accessibility audit, we currently do not recommend using it.
+    This project is now deprecated. See govuk-eleventy-plugin for an alternative.
 
 !!! quote "Restrictions"
 
