@@ -1,4 +1,4 @@
-This project will not be developed further. See [https://github.com/ministryofjustice/mkdocs-tech-docs-template for an alternative](https://github.com/x-govuk/govuk-eleventy-plugin) for an alternative.
+This project will not be developed further. See [govuk-eleventy-plugin](https://github.com/x-govuk/govuk-eleventy-plugin) for an alternative.
 
 # MkDocs Tech Docs Template
 
